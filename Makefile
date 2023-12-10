@@ -4,7 +4,7 @@ include .env
 
 build:
 	npx hardhat compile
-	forge build1
+	forge build
 
 test:
 	npm run deploy:local
